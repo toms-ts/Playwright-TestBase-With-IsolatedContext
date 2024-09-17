@@ -13,4 +13,4 @@ The `OneTimeSetup` and `OneTimeTearDown` methods handle the initial setup of the
 
 The setup checks for a saved authentication state and uses it if available, otherwise, it performs a login and saves the authentication state for future tests.
 
-In the setup, we also a check for the `IsolatedContextAttribute`. If that attribute is present, then we do not reuse the saved authentication state. 
+In the setup, we also check for the `IsolatedContextAttribute`. If that attribute is present then we do not reuse the saved authentication state. 
