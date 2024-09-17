@@ -3,7 +3,7 @@ This is just the setup and teardown procedures for some Playwright tests. I've i
 
 **IsolatedContext Attribute**
 
-The `IsolatedContextAttribute` is used to mark tests that need a separate browser context, like an login page UI test. 
+The `IsolatedContextAttribute` is used to mark tests that need a separate browser context, like a login page UI test. 
 
 **Setup and Teardown**
 
